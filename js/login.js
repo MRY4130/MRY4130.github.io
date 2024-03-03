@@ -25,6 +25,7 @@ function paintGreetings(username) {
   
   todo.classList.remove(HIDDEN_CLASSNAME);
   todoL.classList.remove(HIDDEN_CLASSNAME);
+  todoB.classList.remove(HIDDEN_CLASSNAME);
 
 }
 
