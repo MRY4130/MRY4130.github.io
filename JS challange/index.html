@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MOMORY JSCHALLENGE</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1 class="clock1">0000년 00월 00일 월요일</h1>
+    <h1 class="clock2">00시 00분 00초</h1>
+    <form id="login-form" class="hidden">
+      <input class="login-input" placeholder="ID" />
+      <button class="login-button">login</button>
+    </form>
+    <form id="login-form2" class="hidden">
+      <h1 id="greeting">What's your name?</h1>
+    </form>
+    <form id="todo-form" class="hidden">
+      <input class="todo-input" type="text" placeholder="Write a To Do and Press enter" required />
+    </form>
+    <div id="list-back" class="hidden"></div>
+    <ul id="todo-list" class="hidden"></ul>
+    
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
